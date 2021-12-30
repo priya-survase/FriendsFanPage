@@ -1,0 +1,171 @@
+ *{
+    padding: 0px;
+    margin: auto;
+    font-family: 'IBM Plex Serif', serif;
+    
+}
+.header{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    background-color:#F9FAF8;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 80px;
+    
+    
+    
+    
+}
+
+.header-tabs{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.tabs{
+    padding :5px;
+    color: black;
+    text-decoration: none;
+}
+
+.about{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-color: black;
+    margin-top: 11px;
+    color:white;
+    padding: 10px;
+    border:5px solid black;
+    
+}
+
+.about-button, .box-button{
+    background-color: rgb(48, 165, 48);
+    border: 3px solid white;
+    border-radius: 20px;
+    color: rgb(5, 5, 5);
+    height: 60px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.about-text{
+    font-size: 35px;
+    
+}
+.about-image{
+    margin-right: 6px;
+    border: 3px solid honeydew;
+    border-radius: 5px;
+    align-content: center;
+}
+
+.cast-title{
+    text-align: center;
+    font: bolder;
+    font-size: 30px;
+    color: #000d33;
+    text-decoration: underline;
+    padding: 10px;
+}
+.cast{
+    border: 10px solid black;
+    
+}
+.cast-row{
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px;
+}
+
+.cast-cell{
+    padding: 30px 5px 5px 5px;
+    height: 200px;
+    width: 150px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000d33;
+    border: 3px solid #000d33 ;
+    border-radius: 10px;
+}
+
+.as-font{
+    font-style: italic;
+    font-weight: normal;
+}
+
+.quote{
+    background-color: #ebebe0;
+    align-content: center;
+    height: 200px;
+    padding: 50px 150px;
+    border: 10px solid black;
+    
+}
+
+.quote-text{
+    color:black;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: justify;
+
+}
+
+.call-action{
+    padding: 50px 30px;
+    height: 150px;
+    background-color: black;
+    
+}
+
+.call-action-box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    gap: 50px;
+    height: 100px;
+    background-color: white; 
+    border: 10px solid black;
+    border-radius: 20px;
+}
+
+.box-text{
+    font-weight:bolder;
+    font-size: 18px;
+    color: black;
+}
+
+.box-text, .box-button{
+    align-items: center;
+}
+
+.footer{
+    height: 80px;
+    background-color: black;
+    border: 2px solid white;
+}
+.footer-text{
+    text-align: center;
+    font-size: 15px;
+    padding-top: 20px;
+    color: white;
+}
+
+
